@@ -15,7 +15,6 @@ allprojects {
 ```
 ##### Step 2 :
 Add the dependency
-
 ```java
 dependencies {
 	       implementation 'com.github.imanshul:SukshiCamerDemo:1.0.0'
@@ -24,7 +23,7 @@ dependencies {
   ## Usage
   Add the camera and write external storage permission in Manifest. Ask user for runtime permission before executing the below code. Start the Camera activity using startActivityResult providing the request code. 
   
-  ```java
+ ```java
   int REQUEST_CODE = 123;
   
  startActivityForResult(new Intent(MainActivity.this, CameraActivity.class), REQUEST_CODE);
