@@ -1,4 +1,4 @@
-# SukshiCamerDemo
+# Sukshi Camera Demo
 A face detect capture library
 
 ## Setup
@@ -15,13 +15,15 @@ allprojects {
 ```
 ##### Step 2 :
 Add the dependency
+
 ```java
 dependencies {
 	       implementation 'com.github.imanshul:SukshiCamerDemo:1.0.0'
 	}
   
   ## Usage
-  Start the Camera activity using startActivityResult providing the request code.
+  Add the camera and write external storage permission in Manifest. Ask user for runtime permission before executing the below code. Start the Camera activity using startActivityResult providing the request code. 
+  
   ```java
   int REQUEST_CODE = 123;
   
